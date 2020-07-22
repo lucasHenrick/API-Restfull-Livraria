@@ -17,7 +17,7 @@ import io.github.lucashenrick.livraria.entity.Alugados;
 import io.github.lucashenrick.livraria.repository.AlugadosRepository;
 
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://livraria-emprestimo.firebaseapp.com")
 @RestController
 public class AlugadosController {
 	@Autowired

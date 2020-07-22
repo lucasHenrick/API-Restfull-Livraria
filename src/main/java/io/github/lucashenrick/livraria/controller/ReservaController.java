@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.github.lucashenrick.livraria.entity.Reserva;
 import io.github.lucashenrick.livraria.repository.ReservaRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://livraria-emprestimo.firebaseapp.com")
 @RestController
 public class ReservaController {
 	@Autowired
